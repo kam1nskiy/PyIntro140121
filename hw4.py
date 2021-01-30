@@ -43,10 +43,10 @@
 
 # 5) У вас есть список значений my_list и список индексов my_indexes
 # (начинается с нуля и количество элементов совпадает с количеством в my_list.
-# Распечатать значения из my_list через обращение по индексу. См. пример выше.
-my_indexes = [0,1,2]
-my_string1 = "там"
-my_string2 = "пам"
+# Распечатать значения из my_list через обращение по индексу.
+my_indexes = [0,1,2,3]
+my_string1 = "шцтк"
+my_string2 = "оеае"
 for index in my_indexes:
 	print(my_string1[index],my_string2[index])
 

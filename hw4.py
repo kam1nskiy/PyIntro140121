@@ -41,15 +41,27 @@
 
 
 
+# 5) У вас есть список значений my_list и список индексов my_indexes
+# (начинается с нуля и количество элементов совпадает с количеством в my_list.
+# Распечатать значения из my_list через обращение по индексу. См. пример выше.
+my_indexes = [0,1,2]
+my_string1 = "там"
+my_string2 = "пам"
+for index in my_indexes:
+	print(my_string1[index],my_string2[index])
+
+# это называется обращение по индексу
+#####################################################
+
 
 # 6) У вас есть два списка my_list_1 и my_list_2 равной длинны и
 # список индексов my_indexes (начинается с нуля и количество элементов
 # совпадает с количеством в my_list_1.
 # Распечатать пары значений из my_list_1 и my_list_2 через обращение по индексу.
-my_list = ["today", "tomorrow", "never"]
-my_indexes = [0, 1, 2, ]
-for index in my_indexes:
-    print(my_list[index])
+# my_list = ["today", "tomorrow", "never"]
+# my_indexes = [0, 1, 2, ]
+# for index in my_indexes:
+#     print(my_list[index])
 
 ############################################################################################
 
@@ -58,12 +70,12 @@ for index in my_indexes:
 # Задание нужно выполнить ТОЛЬКО через цикл в цикле(См. пример выше) и приведение типов .
 # Генерирование через range или другие "фишки" я засчитывать не буду ))
 
-my_string = '0123456789'
-list = []
-for symb_1 in my_string:
-    for symb_2 in my_string:
-        list.append(int(symb_1 + symb_2))
-print(list)
+# my_string = '0123456789'
+# list = []
+# for symb_1 in my_string:
+#     for symb_2 in my_string:
+#         list.append(int(symb_1 + symb_2))
+# print(list)
 
 
 

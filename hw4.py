@@ -29,13 +29,13 @@
 # Если в my_list количество элементов меньше 2, то в конец добавить значение 0.
 # Если количество элементов больше или равно 2, то добавить сумму последних двух элементов.
 # Количество элементов в списке можно получить с помощью функции len(my_list)
-# my_list = [156]
-# if len(my_list) < 2:
-#         my_list.append(0)
-# else:
-#     my_list.append(my_list[-1] + my_list[-2])
-#
-# print(my_list)
+my_list = [156,157]
+if len(my_list) < 2:
+        my_list.append(0)
+elif len(my_list) >= 2:
+    my_list.append(my_list[-1] + my_list[-2])
+
+print(my_list)
 
 ############################################################################################
 
@@ -44,11 +44,11 @@
 # 5) У вас есть список значений my_list и список индексов my_indexes
 # (начинается с нуля и количество элементов совпадает с количеством в my_list.
 # Распечатать значения из my_list через обращение по индексу.
-my_indexes = [0,1,2,3]
-my_string1 = "шцтк"
-my_string2 = "оеае"
-for index in my_indexes:
-	print(my_string1[index],my_string2[index])
+# my_indexes = [0,1,2,3]
+# my_string1 = "шцтк"
+# my_string2 = "оеае"
+# for index in my_indexes:
+# 	print(my_string1[index],my_string2[index])
 
 # это называется обращение по индексу
 

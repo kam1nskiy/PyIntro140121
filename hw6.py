@@ -87,8 +87,7 @@
 #стало
 str1="труттутумп"
 str2="труттутумпум"
-z=(set(str2) & set(str1))
-my_result=list([value for value in z if str1.count(value)==1 and str2.count(value)==1])
+my_result=list([value for value in set(str2) & set(str1) if str1.count(value)==1 and str2.count(value)==1])
 print(my_result)
 ##########################################################################
 

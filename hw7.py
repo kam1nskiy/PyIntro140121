@@ -36,7 +36,7 @@
 # ages=[value["age"] for value in persons]
 # avarage=sum(ages)/len(ages)
 # print(avarage)
-# Красивое решение 4го задание через collections
+# Красивое решение 4го задание с исполз collections
 # from collections import defaultdict
 #
 # persons = [

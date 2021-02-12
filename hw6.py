@@ -53,10 +53,10 @@
 #         new_list.append(symbol)
 # print(new_list)
 
-#стало
-# my_str="wsaafddff"
-# result = set([value for value in my_str if my_str.count(value)==1])
-# print(result)
+# стало
+my_str="wsaafddff"
+result = list([value for value in set(my_str) if my_str.count(value)==1])
+print(result)
 #
 ##########################################################################
 #
@@ -85,10 +85,10 @@
 # print(res)
 #
 #стало
-str1="труттутумп"
-str2="труттутумпум"
-my_result=list([value for value in set(str2) & set(str1) if str1.count(value)==1 and str2.count(value)==1])
-print(my_result)
+# str1="труттутумп"
+# str2="труттутумпум"
+# my_result=list([value for value in set(str2) & set(str1) if str1.count(value)==1 and str2.count(value)==1])
+# print(my_result)
 ##########################################################################
 
 # 8. Описать с помощью словаря следующую структуру для конкретного человека (можно придумать):

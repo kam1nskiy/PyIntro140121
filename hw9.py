@@ -28,14 +28,14 @@ print(surnames)
 # или True/False. Выбор значения должен быть равновероятным. Т.е. вероятность того, что значение будет целым
 # такая же, как и вероятность того, что будет типа float или типа bool.
 
-# создаем строку из случайных букв
+
 def random_string(min_limit, max_limit):
     chars = string.ascii_letters
     str_range = random.randint(min_limit, max_limit)
     return ''.join(random.choice(chars) for i in range(str_range))
 
 
-# создаем рандомное значение ключа типа инта,флоата или bool
+
 def get_random_value(type, value_rules):
     if type == "int":
         val = random.randint(value_rules[type]["min"], value_rules[type]["max"])

@@ -77,8 +77,3 @@ def write_file(file_path, data):
 
 
 write_file(r'C:\Users\kaminskyi\PycharmProjects\PyIntro140121\test.csv', data)
-
-
-
-
-

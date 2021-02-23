@@ -55,6 +55,8 @@ data = [{'персона': 'человек',
          'противостоять': 'оставаться сильным, несмотря на давление',
          'бежать': 'двигаться со скоростью'}]
 
+data1 = ['asdasdadasadas']
+
 
 def write_file(file_path, data):
     if file_path.endswith(".txt"):
@@ -75,5 +77,5 @@ def write_file(file_path, data):
     else:
         print("Unsupported file format!")
 
-
 write_file(r'C:\Users\kaminskyi\PycharmProjects\PyIntro140121\test.csv', data)
+write_file(r'C:\Users\kaminskyi\PycharmProjects\PyIntro140121\test.txt', data1)

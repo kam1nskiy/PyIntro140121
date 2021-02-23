@@ -28,6 +28,7 @@ def read_csv(file_path):
             content.append(row)
     return content
 
+
 def read_file(file_path):
     extension = file_path.rsplit('.', 1)[-1]
     if extension == 'txt':
@@ -49,9 +50,10 @@ print(read_file(r'C:\Users\kaminskyi\PycharmProjects\PyIntro140121\data.json'))
 # Если расширение не соответствует заданным, то вывести текст "Unsupported file format"
 
 
-
-
-data = [{"Name": "Emma", "Age": 13, "Hair_color": "orange"}]
+data = [{'персона': 'человек',
+         'марафон': 'гонка бегунов длиной около 26 миль',
+         'противостоять': 'оставаться сильным, несмотря на давление',
+         'бежать': 'двигаться со скоростью'}]
 
 
 def write_file(file_path, data):
@@ -72,7 +74,6 @@ def write_file(file_path, data):
             csv_writer.writerows(data)
     else:
         print("Unsupported file format!")
-
 
 
 write_file(r'C:\Users\kaminskyi\PycharmProjects\PyIntro140121\test.csv', data)

@@ -1,3 +1,4 @@
+
 value = input("Введи число: ")
 value = int(value)
 if value % 5 == 0:

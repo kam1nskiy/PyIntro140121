@@ -19,19 +19,13 @@ print(type(data))
 # 2. Написать функцию сортировки данных по ФАМИЛИИ в поле "name" (у тех у кого она есть).
 
 
-def sort_name(names_dict):
-    name = names_dict.get("name")
-    if " " in name:
-        space_index = name.rfind(" ")
-        last_name = name[space_index + 1:]
-    else:
-        last_name = name
-
-    return last_name
+def sort_by_surname(names_dict):
+  return names_dict['name'].split()[-1]
 
 
-sorted_names = sorted(data, key=sort_name)
-print(sorted_names)
+data = sorted(data, key=sort_by_surname)
+print(data)
+
 
 
 # 3. Написать функцию сортировки по дате смерти из поля "years".

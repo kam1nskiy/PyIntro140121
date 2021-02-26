@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a32fde7-9e3f-470f-bd1e-8729972f9516" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/homework11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw11.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw11.py" afterDir="false" />
-    </list>
+    <list default="true" id="5a32fde7-9e3f-470f-bd1e-8729972f9516" name="Default Changelist" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1nmZfHw0Jsur09LLAV8geBqAG3b" />
   <component name="ProjectViewState">
@@ -329,7 +326,7 @@
       <workItem from="1614090950090" duration="2404000" />
       <workItem from="1614174712359" duration="5063000" />
       <workItem from="1614249975129" duration="7726000" />
-      <workItem from="1614272242021" duration="3937000" />
+      <workItem from="1614272242021" duration="4243000" />
     </task>
     <task id="LOCAL-00001" summary="upload hw2">
       <created>1611998872620</created>
@@ -555,7 +552,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614272957567</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="commit">
+      <created>1614340551071</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1614340551071</updated>
+    </task>
+    <task id="LOCAL-00034" summary="commit">
+      <created>1614340735598</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1614340735598</updated>
+    </task>
+    <task id="LOCAL-00035" summary="commit">
+      <created>1614340842509</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1614340842509</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

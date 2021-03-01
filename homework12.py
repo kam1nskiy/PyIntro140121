@@ -27,7 +27,9 @@ def get_quotes(quantity, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro14
     result = sorted(list(quotes), key=lambda quotes: quotes[1])
     # print(result)
     with open(filename, 'w', newline='', encoding='utf-8') as file:
+        fieldnames = ["Author", "Quote", "URL"]
         writer = csv.writer(file)
+        writer.writerow(fieldnames)
         writer.writerows(result)
 
 

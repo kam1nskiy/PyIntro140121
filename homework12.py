@@ -6,12 +6,13 @@
 # Заголовки файла:
 # Author, Quote, URL. Если автор не указан, цитату не брать.
 # Перед сохранением в csv, записи отсортировать по автору (в алфавитном порядке).
-from sys import path
+
 
 import requests
 import csv
 import json
 import re
+from os import path
 
 def get_quotes(quantity, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro140121\test.csv"):
 
@@ -38,10 +39,11 @@ def get_quotes(quantity, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro14
 
 get_quotes(10)
 
+
 def read_authors(path=r"C:\Users\kaminskyi\PycharmProjects\PyIntro140121\authors.txt"):
     with open(path, "r") as text_file:
-        complete_list=text_file.readlines()
-        authors_list=[]
+        complete_list = text_file.readlines()
+        authors_list = []
         for line in complete_list:
             if "'s" in line:
                 authors_list.append(line)

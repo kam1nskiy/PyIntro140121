@@ -39,6 +39,20 @@ def get_quotes(quantity, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro14
 
 get_quotes(10)
 
+# 2. Дан файл authors.txt
+# 2.1) написать функцию, которая считывает данные из этого файла,
+# возвращая СПИСОК тех строк в которых есть полная дата, писатель и указание на его день рождения или смерти.
+# Например: 26th February 1802 - Victor Hugo's birthday - author of Les Misérables.
+#
+# 2.2) Написать функцию, которая принимает список строк полученной в пункте 2.1, и возвращает список словарей
+# в формате {"name": name, "date": date},
+# где name это имя автора, а date - дата из строки в формате "dd/mm/yyyy" (d-день, m-месяц, y-год)
+#
+# Например [{"name": "Charles Dickens", "date": "09/06/1870"}, ...,
+# {"name": "J. D. Salinger", "date": "01/01/1919"}]
+#
+# 2.3) Написать функцию, которая сохраняет результат пункта 2.2 в json файл.
+
 
 def read_authors(path=r"C:\Users\kaminskyi\PycharmProjects\PyIntro140121\authors.txt"):
     with open(path, "r") as text_file:

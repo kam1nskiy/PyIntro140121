@@ -60,12 +60,12 @@ def create_dict_authors(list_authors):
 def write_json(authors_dicts_list, json_authors=r"C:\Users\kaminskyi\PycharmProjects\PyIntro140121\authors.json"):
     with open(path.join(json_authors), "w") as json_file:
         json.dump(authors_dicts_list, json_file, indent=1)
-    return None
+
 
 
 # get_quotes(10)
 # list_of_artist = read_authors()
 # print(list_of_artist)
 authors_dict = create_dict_authors(read_authors())
-print(authors_dict)
+print(type(authors_dict))
 write_json(authors_dict)

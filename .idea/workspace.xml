@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/homework13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework12.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework12_part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework12_part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw8.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
     </list>
@@ -415,7 +416,7 @@
       <workItem from="1614446335761" duration="23395000" />
       <workItem from="1614541341531" duration="2838000" />
       <workItem from="1614618621226" duration="1643000" />
-      <workItem from="1614627887168" duration="7111000" />
+      <workItem from="1614627887168" duration="7448000" />
     </task>
     <task id="LOCAL-00001" summary="upload hw2">
       <created>1611998872620</created>
@@ -683,7 +684,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614599207823</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="добавил заголовки">
+      <created>1614689531105</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1614689531105</updated>
+    </task>
+    <task id="LOCAL-00040" summary="добавил заголовки">
+      <created>1614689629352</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1614689629352</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,10 +755,11 @@
     <SUITE FILE_PATH="coverage/PyIntro140121$homework13.coverage" NAME="homework13 Coverage Results" MODIFIED="1614628375901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PyIntro140121$hw8_3.coverage" NAME="hw8.3 Coverage Results" MODIFIED="1613331587557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PyIntro140121$hw9_1.coverage" NAME="hw9.1 Coverage Results" MODIFIED="1613757875335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/PyIntro140121$homework12_part2__1_.coverage" NAME="homework12_part2 (1) Coverage Results" MODIFIED="1614689748382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PyIntro140121$PyIntro140121.coverage" NAME="PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0 Coverage Results" MODIFIED="1612002638355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PyIntro140121$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1612000712424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyIntro140121$hw9.coverage" NAME="homework10 Coverage Results" MODIFIED="1614090520868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/PyIntro140121$homework12.coverage" NAME="homework12 Coverage Results" MODIFIED="1614689389439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/PyIntro140121$homework12.coverage" NAME="homework12 Coverage Results" MODIFIED="1614689654624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PyIntro140121$homework_part2__1_.coverage" NAME="homework_part2 (1) Coverage Results" MODIFIED="1614689352853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PyIntro140121$hw11.coverage" NAME="hw11 Coverage Results" MODIFIED="1614340160271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/PyIntro140121$hw8.coverage" NAME="hw9.1 Coverage Results" MODIFIED="1613484912945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />

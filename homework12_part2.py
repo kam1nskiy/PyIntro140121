@@ -63,7 +63,7 @@ def write_json(authors_dicts_list, json_authors=r"C:\Users\kaminskyi\PycharmProj
 
 
 
-# get_quotes(10)
+
 # list_of_artist = read_authors()
 # print(list_of_artist)
 authors_dict = create_dict_authors(read_authors())

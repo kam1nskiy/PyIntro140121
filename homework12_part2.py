@@ -20,8 +20,8 @@ from os import path
 
 def read_authors(path=r"C:\Users\kaminskyi\PycharmProjects\PyIntro140121\authors.txt"):
     with open(path, "r") as text_file:
-        complete_list=text_file.readlines()
-        authors_list=[]
+        complete_list = text_file.readlines()
+        authors_list = []
         for line in complete_list:
             if "'s" in line:
                 authors_list.append(line)

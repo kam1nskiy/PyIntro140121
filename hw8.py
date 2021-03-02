@@ -26,17 +26,17 @@ from string import ascii_letters
 names = ["king", "miller", "kean"]
 domains = ["net", "com", "ua"]
 
-num_min = 100
-num_max = 999
-min_limit = 5
-max_limit = 7
+NUM_MIN = 100 #27-30 строка можно было бы перевести в верхний регистр, показав что это константы;
+NUM_MAX = 999
+MIN_LIMIT = 5
+MAX_LIMIT = 7
 
 
-def email(names, domains):
+def email(names, domains) ->string:
     name = (rnd.choice(names))
     domain = (rnd.choice(domains))
-    stringa = (''.join(choice(string.ascii_lowercase) for i in range(randint(min_limit, max_limit))))
-    number = rnd.randint(num_min, num_max)
+    stringa = (''.join(choice(string.ascii_lowercase) for i in range(randint(MIN_LIMIT, MAX_LIMIT))))
+    number = rnd.randint(NUM_MIN, NUM_MAX)
     mail = (f" {name}.{number}@{stringa}.{domain}")
     return mail
 
@@ -48,7 +48,7 @@ print(eemail)
 # 2. Написать функцию, которая генерирует и возвращает строку случайной длинны.
 # Минимальную и максимальную длину строки ограничить с помощью параметров min_limit, max_limit, передаваемых в функцию.
 
-def random_string(min_limit, max_limit):
+def random_string(min_limit, max_limit) ->string:
     result = "".join(choice(ascii_letters) for _ in range(randint(min_limit, max_limit)))
     return result
 
@@ -66,7 +66,7 @@ print(random_string(10, 50))
 # Знаки препинания всегда идут в конце слова.
 
 
-def modify_text(rnd_str):
+def modify_text(rnd_str) ->string:
     i = 0
     rnd_str = list(rnd_str)
     while i + 10 < len(rnd_str):
@@ -82,7 +82,7 @@ def modify_text(rnd_str):
 
 
 
-def lowercase(rnd_str):
+def lowercase(rnd_str) ->string:
     i = 0
     rnd_str = list(rnd_str)
     while i + 3 < len(rnd_str):
@@ -93,5 +93,18 @@ def lowercase(rnd_str):
 
 
 print(lowercase(modify_text(random_string(150,500))))
+
+
+import homework12_part2
+color('red', 'yellow')
+begin_fill()
+while True:
+    forward(200)
+    left(170)
+    if abs(pos()) < 1:
+        break
+end_fill()
+done()
+
 
 

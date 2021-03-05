@@ -14,7 +14,8 @@ import json
 import re
 from os import path
 
-def get_quotes(quantity, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro140121\test.csv"):
+
+def get_quotes(quantity):
 
     quotes = set()
     while len(quotes) < quantity:
@@ -25,11 +26,15 @@ def get_quotes(quantity, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro14
                   "lang": "ru"}
         responce = requests.get(url, params=params)
         quote = responce.json()
-        q = (quote["quoteText"], quote["quoteAuthor"], quote["quoteLink"])
+        q = (quote["quoteAuthor"], quote["quoteText"], quote["quoteLink"])
         if quote["quoteAuthor"] != "":
             quotes.add(q)
     result = sorted(list(quotes), key=lambda quotes: quotes[1])
+    return result
     # print(result)
+
+
+def write_to_csv(result, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro140121\test.csv"):
     with open(filename, 'w', newline='', encoding='utf-8') as file:
         fieldnames = ["Author", "Quote", "URL"]
         writer = csv.writer(file)
@@ -37,7 +42,7 @@ def get_quotes(quantity, filename=r"C:\Users\kaminskyi\PycharmProjects\PyIntro14
         writer.writerows(result)
 
 
-get_quotes(10)
+write_to_csv(get_quotes(5))
 
 # 2. Дан файл authors.txt
 # 2.1) написать функцию, которая считывает данные из этого файла,
